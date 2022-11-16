@@ -21,4 +21,8 @@ spring:
           uri: lb://personal-service
           predicates:
             - Path=/personal/**
+        - id: calculo-planilla-service
+          uri: lb://calculo-planilla-service
+          predicates:
+            - Path=/calculo-planilla/**          
         
