@@ -49,7 +49,7 @@ spring:
           uri: lb://reloj-service
           predicates:
             - Path=/reloj/**
-            - 
+            
 
 
 
